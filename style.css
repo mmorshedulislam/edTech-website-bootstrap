@@ -58,3 +58,11 @@ p, a{
 .bg-elearn{
     background-color: #F4FAFD;
 }
+
+.ready{
+    background-color: #289BDE;
+}
+#ready-join p{
+    color: var(--color-dark7);
+}
+
