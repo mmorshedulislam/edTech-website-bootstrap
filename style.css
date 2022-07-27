@@ -14,6 +14,7 @@
     --color-dark1: #4A4A4A;
     --color-dark2: #4A4A4A;
     --color-dark3: #777777;
+    --color-dark7: #F4F4F4;
 }
 
 /* Common or Utilities CSS */
@@ -35,4 +36,19 @@ h3{
 p, a{
     color: var(--color-dark3);
 }
+.btn-pro {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: var(--btn-color);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
 
+.carousel-item p{
+    color: var(--color-dark7);
+}
