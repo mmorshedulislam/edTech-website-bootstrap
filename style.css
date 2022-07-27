@@ -11,6 +11,9 @@
 :root{
     --btn-color: #289BDE;
     --font-poppins: 'Poppins', sans-serif;
+    --color-dark1: #4A4A4A;
+    --color-dark2: #4A4A4A;
+    --color-dark3: #777777;
 }
 
 /* Common or Utilities CSS */
@@ -22,5 +25,14 @@
 
 body{
     font-family: var(--font-poppins);
+}
+h2{
+    color: var(--color-dark1);
+}
+h3{
+    color: var(--color-dark2);
+}
+p, a{
+    color: var(--color-dark3);
 }
 
