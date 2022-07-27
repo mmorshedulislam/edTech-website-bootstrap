@@ -66,3 +66,9 @@ p, a{
     color: var(--color-dark7);
 }
 
+
+
+#company-logo img{
+    width: 125px;
+    margin: 0 auto;
+}
