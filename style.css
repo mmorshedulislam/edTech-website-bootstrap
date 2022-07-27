@@ -11,7 +11,7 @@
 :root{
     --btn-color: #289BDE;
     --font-poppins: 'Poppins', sans-serif;
-    --color-dark1: #4A4A4A;
+    --color-dark1: #1D1D1D;
     --color-dark2: #4A4A4A;
     --color-dark3: #777777;
     --color-dark7: #F4F4F4;
@@ -49,6 +49,9 @@ p, a{
     border-radius: 5px;
 }
 
+.price-color{
+    color: var(--btn-color);
+}
 .carousel-item p{
     color: var(--color-dark7);
 }
