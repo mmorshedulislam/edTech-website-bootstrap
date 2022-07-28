@@ -36,6 +36,7 @@ h3{
 p, a{
     color: var(--color-dark3);
 }
+
 .btn-pro {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -48,6 +49,8 @@ p, a{
     border: none;
     border-radius: 5px;
 }
+
+
 
 .price-color{
     color: var(--btn-color);
@@ -125,4 +128,17 @@ footer{
     color: #fff;
     margin: 0 5px;
     font-size: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .course-item {
+        width: 100%;
+    }
+    .course-item img{
+        width: 100%;
+    }
+    .ready > div p{
+        width: 100%;
+    }
 }
