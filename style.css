@@ -54,7 +54,7 @@ p, a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+    opacity: .9;
 }
 
 
@@ -90,6 +90,10 @@ p, a{
 }
 #ready-join p{
     color: var(--color-dark7);
+}
+
+.section-desc{
+    width: 100%;
 }
 
 .left-arrow, .right-arrow {
@@ -157,5 +161,11 @@ footer{
     }
     .ready > div p{
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-desc{
+        width: 50%;
     }
 }
