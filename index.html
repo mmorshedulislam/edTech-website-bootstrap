@@ -75,7 +75,7 @@
             <div class="carousel-item active position-relative rounded-2 mt-3">
               <img
                 src="images/cover/cover-1.png"
-                class="d-block w-100 opacity-75"
+                class="d-block w-100"
                 alt="..."
               />
               <div
@@ -91,7 +91,7 @@
             <div class="carousel-item position-relative rounded-2 mt-3">
               <img
                 src="images/cover/cover-2.jpg"
-                class="d-block w-100 opacity-75"
+                class="d-block w-100"
                 alt="..."
               />
               <div
@@ -107,7 +107,7 @@
             <div class="carousel-item position-relative rounded-2 mt-3">
               <img
                 src="images/cover/cover-3.jpg"
-                class="d-block w-100 opacity-75"
+                class="d-block w-100"
                 alt="..."
               />
               <div
@@ -156,7 +156,7 @@
 
           <div class="row g-4">
             <div class="col-lg-6">
-              <div class="course-item d-flex border border-1 rounded">
+              <div class="course-item border border-1 rounded">
                 <img
                   class="img-fluid"
                   src="images/course/course-1.png"
@@ -268,10 +268,10 @@
       <section id="elearning">
         <div class="container">
           <div class="row g-0">
-            <div class="col-lg-6">
-              <img class="img-fluid" src="images/working.png" alt="" />
+            <div class="col-md-6">
+              <img class="img-fluid h-100" src="images/working.png" alt="" />
             </div>
-            <div class="col-lg-6 d-flex align-items-center bg-elearn px-5">
+            <div class="col-md-6 d-flex align-items-center bg-elearn p-5">
               <div class="">
                 <h2 class="text-start">Explore The elearning Institute</h2>
                 <p>
@@ -312,9 +312,9 @@
       <section id="ready-join" class="my-5">
         <div class="container">
           <div
-            class="ready d-flex justify-content-between align-items-center bg-primary p-5 rounded-3"
+            class="ready text-center text-lg-start d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center bg-primary p-5 rounded-3"
           >
-            <div class="w-50 ms-5">
+            <div class="w-50 ms-lg-5 mx-auto">
               <h2 class="text-white">Ready to join?</h2>
               <p class="">
                 It is a long established fact that a reader will be distracted
@@ -324,7 +324,7 @@
             <!-- Button trigger modal -->
             <button
               type="button"
-              class="btn btn-light text-primary fw-semibold text-capitalize me-5"
+              class="btn btn-light text-primary fw-semibold text-capitalize me-lg-5 mx-auto"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
@@ -422,8 +422,8 @@
             the readable content of a page when looking at its layout.
           </p>
 
-          <div class="row">
-            <div class="col-md-3">
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <img
                   src="images/student/student-1.png"
@@ -436,7 +436,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <img
                   src="images/student/student-2.png"
@@ -449,7 +449,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <img
                   src="images/student/student-3.png"
@@ -462,7 +462,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <img
                   src="images/student/student-4.png"
@@ -490,13 +490,15 @@
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
-          <div class="row">
-            <div class="col-md-6">
+          <div class="row g-3">
+            <div class="col-lg-6">
               <div class="card">
                 <div class="card-body ps-4">
-                  <span class="left-arrow"
+                  <div class="d-none d-lg-block">
+                    <span class="left-arrow"
                     ><i class="fa-solid fa-chevron-left"></i
                   ></span>
+                  </div>
                   <div class="d-flex justify-content-between">
                     <img src="images/comma.png" alt="" />
                     <span class="">
@@ -529,12 +531,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <div class="card">
                 <div class="card-body ps-4">
-                  <span class="right-arrow"
+                  <div class="d-none d-lg-block">
+                    <span class="right-arrow"
                     ><i class="fa-solid fa-chevron-right"></i
                   ></span>
+                  </div>
                   <div class="d-flex justify-content-between">
                     <img src="images/comma.png" alt="" />
                     <span class="">
@@ -568,6 +572,9 @@
               </div>
             </div>
           </div>
+          <button class="btn-pro my-5 d-block d-lg-none text-center mx-auto">
+            View All
+          </button>
         </div>
       </section>
 
@@ -579,7 +586,7 @@
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
-          <div class="w-75 mx-auto">
+          <div class="w-100 w-lg-75 mx-auto">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -746,16 +753,24 @@
             >
           </p>
           <div class="social-icons">
-            <a href="https://facebook.com/m.morshedul.islam.100" class="text-decoration-none"
+            <a
+              href="https://facebook.com/m.morshedul.islam.100"
+              class="text-decoration-none"
               ><i class="fa-brands fa-facebook"></i
             ></a>
-            <a href="https://www.linkedin.com/in/m-morshedul-islam-100/" class="text-decoration-none"
+            <a
+              href="https://www.linkedin.com/in/m-morshedul-islam-100/"
+              class="text-decoration-none"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
-            <a href="https://github.com/mmorshedulislam" class="text-decoration-none"
+            <a
+              href="https://github.com/mmorshedulislam"
+              class="text-decoration-none"
               ><i class="fa-brands fa-github"></i
             ></a>
-            <a href="https://www.instagram.com/dev_morshed/" class="text-decoration-none"
+            <a
+              href="https://www.instagram.com/dev_morshed/"
+              class="text-decoration-none"
               ><i class="fa-brands fa-instagram"></i
             ></a>
           </div>

@@ -55,6 +55,9 @@ p, a{
 .carousel-item p{
     color: var(--color-dark7);
 }
+.carousel-item img{
+    opacity: 0.8;
+}
 .bg-elearn{
     background-color: #F4FAFD;
 }
