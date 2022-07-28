@@ -66,6 +66,33 @@ p, a{
     color: var(--color-dark7);
 }
 
+.left-arrow, .right-arrow {
+    background: #289bde56;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+.left-arrow{
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.right-arrow{
+    background: #289bdecc;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
 
 
 #company-logo img{
