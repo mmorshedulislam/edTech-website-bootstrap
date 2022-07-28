@@ -103,3 +103,23 @@ p, a{
 footer{
     background-color: #161616;
 }
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a{
+    background: #242424;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+}
