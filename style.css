@@ -37,6 +37,27 @@ p, a{
     color: var(--color-dark3);
 }
 
+.carousel-item1{
+    background: url('images/cover/cover-1.png');
+}
+.carousel-item2{
+    background: url('images/cover/cover-2.jpg'); 
+}
+.carousel-item3{
+    background: url('images/cover/cover-3.jpg'); 
+}
+.carousel-item1, .carousel-item2, .carousel-item3{
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    padding: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
 .btn-pro {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -49,7 +70,6 @@ p, a{
     border: none;
     border-radius: 5px;
 }
-
 
 
 .price-color{
@@ -91,15 +111,12 @@ p, a{
 }
 .right-arrow{
     background: #289bdecc;
-    position: absolute;
     right: -15px;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
 
 }
-
-
-
 
 #company-logo img{
     width: 125px;
